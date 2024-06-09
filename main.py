@@ -52,6 +52,7 @@ if result and len(result) > 0:
     print(f"Suburb: {suburb}")
     print(f"Postcode: {postcode}")
     print(f"Landmark: {landmark}")
+    print(f"City")
 
     # Create a map with folium
     my_map = folium.Map(location=[lat, lng], zoom_start=15)
